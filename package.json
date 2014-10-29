@@ -17,5 +17,5 @@
     "jquery": "x.x.x"
   },
   "devDependencies": {},
-  "main": "checkbox.js"
+  "main": "index.js"
 }
