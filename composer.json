@@ -14,5 +14,9 @@
     "jquery": "x.x.x"
   },
   "main": "checkbox.js",
+<<<<<<< HEAD
   "version": "1.0.0-beta"
+=======
+  "version": "1.0.0"
+>>>>>>> b4e281fa6a04db4a369dd75f77f261753fbde58c
 }

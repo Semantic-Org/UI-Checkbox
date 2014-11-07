@@ -1,6 +1,10 @@
 {
   "name": "semantic-ui-checkbox",
+<<<<<<< HEAD
   "version": "1.0.0-beta",
+=======
+  "version": "1.0.0",
+>>>>>>> b4e281fa6a04db4a369dd75f77f261753fbde58c
   "title": "Semantic UI - Checkbox",
   "description": "Single component release of checkbox",
   "homepage": "http://www.semantic-ui.com",
@@ -13,9 +17,16 @@
   "bugs": {
     "url": "https://github.com/Semantic-Org/Semantic-UI/issues"
   },
+<<<<<<< HEAD
   "devDependencies": {},
   "dependencies": {
     "jquery": "x.x.x"
   },
+=======
+  "dependencies": {
+    "jquery": "x.x.x"
+  },
+  "devDependencies": {},
+>>>>>>> b4e281fa6a04db4a369dd75f77f261753fbde58c
   "main": "index.js"
 }
