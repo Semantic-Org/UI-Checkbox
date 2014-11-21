@@ -105,7 +105,7 @@ $.fn.checkbox = function(parameters) {
         },
 
         observeChanges: function() {
-          if(MutationObserver !== undefined) {
+          if('MutationObserver' in window) {
             observer = new MutationObserver(function(mutations) {
               module.debug('DOM tree modified, updating selector cache');
               module.refresh();
@@ -187,6 +187,13 @@ $.fn.checkbox = function(parameters) {
         set: {
           checked: function() {
             $module.addClass(className.checked);
+          },
+          tab: function() {
+            if( $input.attr('tabindex') === undefined) {
+              $input
+                .attr('tabindex', 0)
+              ;
+            }
           }
         },
 
@@ -196,18 +203,18 @@ $.fn.checkbox = function(parameters) {
           }
         },
 
-        disable: function() {
+        enable: function() {
           module.debug('Enabling checkbox functionality');
-          $module.addClass(className.disabled);
-          $input.removeProp('disabled');
-          $.proxy(settings.onDisabled, $input.get())();
+          $module.removeClass(className.disabled);
+          $input.prop('disabled', false);
+          $.proxy(settings.onEnabled, $input.get())();
         },
 
-        enable: function() {
+        disable: function() {
           module.debug('Disabling checkbox functionality');
-          $module.removeClass(className.disabled);
+          $module.addClass(className.disabled);
           $input.prop('disabled', 'disabled');
-          $.proxy(settings.onEnabled, $input.get())();
+          $.proxy(settings.onDisabled, $input.get())();
         },
 
         check: function() {
