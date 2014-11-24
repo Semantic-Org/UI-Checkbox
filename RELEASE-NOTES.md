@@ -6,11 +6,23 @@
 - **Checkbox** - Checkbox now have a ``fireOnInit`` setting for firing callbacks on page load
 - **Checkbox** - Checkbox now receive a ``checked`` class when checked, making it easier to write css selectors on checked checkboxes, for example when using sibling selectors ``.ui.checked.checkbox + .content { // style }``
 
+### Version 0.16.0 - April 22, 2014
+
+- **Checkbox** - Fixes issue where checkboxes with multiple line labels were appearing formatted incorrectly.
+
+### Version 0.15.5 - April 11, 2014
+
+- **Checkbox** - Fixes ``ui checkbox`` to obey ``disabled`` property of input
+
+### Version 0.15.3 - April 04, 2014
+
+- Adds more examples for static checkbox/radio boxes with HTML only
+
 ### Version 0.15.0 - Mar 14, 2014
 
 - **Checkbox** - Checkboxes can now have multiple inputs inside, for use with .NET and other languages that insert their own hidden inputs
 
-### Version 0.13.1- Feb 28, 2014
+### Version 0.13.1 - Feb 28, 2014
 
 - **Checkbox** - Fixes checkbox appearance inside inverted forms
 
