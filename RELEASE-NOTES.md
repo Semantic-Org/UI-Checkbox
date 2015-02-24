@@ -1,3 +1,7 @@
+### Version 1.10.0 - February 23, 2015
+
+- **Form Validation** - Validation messages no longer increase field height on `inline fields` like checkboxes after error appears
+
 ### UI Changes
 
 - **Form Validation** - Dropdown and checkbox will now validate after interaction with `on: 'blur'`
