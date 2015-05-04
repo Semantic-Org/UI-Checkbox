@@ -2,7 +2,7 @@
 Package.describe({
   name    : 'semantic:ui-checkbox',
   summary : 'Semantic UI - Checkbox: Single component release',
-  version : '1.12.1',
+  version : '1.12.2',
   git     : 'git://github.com/Semantic-Org/UI-Checkbox.git',
 });
 
