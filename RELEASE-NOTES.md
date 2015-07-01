@@ -1,3 +1,17 @@
+### Version 2.0.0 - June 30, 2015
+
+- **Checkbox** - Checkbox `fireOnInit` now defaults to false. Checkboxes now also *do not require javascript* to function.
+- **Checkbox** - Checkbox no longer require javascript to function.
+- **Checkbox** - Added support for `indeterminate` checkboxes, along with new stylings.
+- **Checkbox** - Now includes separate behaviors for triggering state changes without invoking callbacks `set checked` vs `checked`
+- **Checkbox** - Checkbox will now gracefully correct behaviors invoked on the child input element instead of the `ui checkbox`.
+- **Checkbox** - Reduced kb size of icon font
+- **Checkbox** - Fix `disabled checkbox` sometimes displaying hand cursor
+- **Checkbox** - Fixes nested `dropdown` inside `checkbox` causing issues
+- **Checkbox** - Fix `:focus` styles only applying if checkbox is unchecked
+- **Form Validation** - Fixed `clear` and `reset` causing validation error to appear on checkbox if empty rule was set on checkbox.
+- **Checkbox** - Toggle now uses `@primaryColor`
+
 ### Version 1.10.0 - February 23, 2015
 
 - **Form Validation** - Validation messages no longer increase field height on `inline fields` like checkboxes after error appears
