@@ -1,4 +1,4 @@
-### Version 2.0.1 - June 30, 2015
+### Version 2.0.1 - July 6, 2015
 
 - **Checkbox** - Fixed issue in chrome where radio checkbox would appear incorrectly when no default value was selected [#2505](https://github.com/Semantic-Org/Semantic-UI/issues/2505)
 - **Checkbox** - Fixed issue where radio checkbox were not properly receiving `checked` class [#2506](https://github.com/Semantic-Org/Semantic-UI/issues/2506)
