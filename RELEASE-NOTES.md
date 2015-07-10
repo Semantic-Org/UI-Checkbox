@@ -1,3 +1,7 @@
+### Version 2.0.3 - July 8, 2015
+
+- **Checkbox** - Checkbox initialized with JS and with `for/id` matching would cause toggle to occur twice on click (making it seem as if nothing was updated) **thanks @malacalypse** [#2572](https://github.com/Semantic-Org/Semantic-UI/issues/2572)
+
 ### Version 2.0.1 - July 6, 2015
 
 - **Checkbox** - Fixed issue in chrome where radio checkbox would appear incorrectly when no default value was selected [#2505](https://github.com/Semantic-Org/Semantic-UI/issues/2505)
