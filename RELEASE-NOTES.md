@@ -1,3 +1,11 @@
+### Version 2.0.4 - July 17, 2015
+
+- **Checkbox** - Checkbox now focus after click, allowing for tab navigation from current position [#2610](https://github.com/Semantic-Org/Semantic-UI/issues/2610)
+- **Checkbox** - Fixed checkbox not using javascript having incorrect colors on focus [#2607](https://github.com/Semantic-Org/Semantic-UI/issues/2607)
+- **Checkbox** - Fixed `space` shortcut causing checkbox to trigger twice
+- **Checkbox** - Updated `colored` theme to add new focus color variables.
+- Updated example in theme guide to include checkbox focus colors
+
 ### Version 2.0.3 - July 8, 2015
 
 - **Checkbox** - Checkbox initialized with JS and with `for/id` matching would cause toggle to occur twice on click (making it seem as if nothing was updated) **thanks @malacalypse** [#2572](https://github.com/Semantic-Org/Semantic-UI/issues/2572)

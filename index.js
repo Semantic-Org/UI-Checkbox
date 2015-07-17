@@ -1,5 +1,5 @@
 /*!
- * # Semantic UI 2.0.3 - Checkbox
+ * # Semantic UI 2.0.4 - Checkbox
  * http://github.com/semantic-org/semantic-ui/
  *
  *
@@ -178,6 +178,7 @@ module.exports = function(parameters) {
               return;
             }
             module.toggle();
+            $input.focus();
             event.preventDefault();
           },
           keydown: function(event) {
@@ -194,7 +195,7 @@ module.exports = function(parameters) {
               $input.blur();
               event.preventDefault();
             }
-            if(!event.ctrlKey && (key == keyCode.enter || key == keyCode.space)) {
+            if(!event.ctrlKey && (key == keyCode.enter)) {
               module.verbose('Enter key pressed, toggling checkbox');
               module.toggle();
               event.preventDefault();
