@@ -1,6 +1,11 @@
+### Version 2.0.5 - July 20, 2015
+
+- **Checkbox** - Fix issue with `onChange` not firing when space key is used. Checkbox keyboard shortcuts now occur on `keydown` but cancel events correctly on `keyup` [#2676](https://github.com/Semantic-Org/Semantic-UI/issues/2676)
+- **Radio Checkbox** - Fixed regression causing radio checkboxes to all appear selected in chrome due to `:indeterminate` selector [#2505](https://github.com/Semantic-Org/Semantic-UI/issues/2505)
+
 ### Version 2.0.4 - July 17, 2015
 
-- **Checkbox** - Checkbox now focus after click, allowing for tab navigation from current position [#2610](https://github.com/Semantic-Org/Semantic-UI/issues/2610)
+- **Checkbox** - Checkbox now focuses after click, allowing for tab navigation from current position [#2610](https://github.com/Semantic-Org/Semantic-UI/issues/2610)
 - **Checkbox** - Fixed checkbox not using javascript having incorrect colors on focus [#2607](https://github.com/Semantic-Org/Semantic-UI/issues/2607)
 - **Checkbox** - Fixed `space` shortcut causing checkbox to trigger twice
 - **Checkbox** - Updated `colored` theme to add new focus color variables.
