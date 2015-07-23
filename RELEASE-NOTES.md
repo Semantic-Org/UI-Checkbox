@@ -1,3 +1,7 @@
+### Version 2.0.7 - July 22, 2015
+
+- **Checkbox** - Fix checkbox "check" appearing italicized when included inside italicized text
+
 ### Version 2.0.5 - July 20, 2015
 
 - **Checkbox** - Fix issue with `onChange` not firing when space key is used. Checkbox keyboard shortcuts now occur on `keydown` but cancel events correctly on `keyup` [#2676](https://github.com/Semantic-Org/Semantic-UI/issues/2676)
