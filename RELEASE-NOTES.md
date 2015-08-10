@@ -1,4 +1,4 @@
-### Version 2.0.7 - July 22, 2015
+### Version 2.0.7 - July 23, 2015
 
 - **Checkbox** - Fix checkbox "check" appearing italicized when included inside italicized text
 
