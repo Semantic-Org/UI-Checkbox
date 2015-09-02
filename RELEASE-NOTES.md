@@ -1,3 +1,13 @@
+#### Features
+
+- **Checkbox** - Added 4 new callbacks `beforeChecked`, `beforeUnchecked`, `beforeDeterminate`, `beforeIndeterminate`. You can now cancel a state change by returning false from these callbacks.
+
+#### Bugs
+
+- **Checkbox** - Clicking a link inside an initialized checkbox `label` will now work correctly, and will not toggle the checkbox. [#2804](https://github.com/Semantic-Org/Semantic-UI/issues/2804)
+- **Form** - `disabled field(s)` now remove `pointer-events` allowing it to disable checkbox and dropdown functionality  [#555](https://github.com/Semantic-Org/Semantic-UI/issues/#555)
+- **Form Validation** - Fixed issue with `get value(s)` where unchecked checkboxes would not correctly retrieve values
+
 ### Version 2.0.7 - July 23, 2015
 
 - **Checkbox** - Fix checkbox "check" appearing italicized when included inside italicized text
