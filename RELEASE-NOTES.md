@@ -1,3 +1,8 @@
+### Version 2.2.0 - June 26, 2016
+
+- **Checkbox** - Fixed issue where docs refer to `onEnable` and `onDisable` with checkbox but callback was called `onEnabled` and `onDisabled`, both callbacks will now be valid until 3.0 [#3761](https://github.com/Semantic-Org/Semantic-UI/issues/3761) [#3763](https://github.com/Semantic-Org/Semantic-UI/issues/3763)
+- **Checkbox** - Radio buttons received `indeterminate` styles when user has not yet interacted with the page in Chrome
+
 ### Version 2.1.6 - Nov 6, 2015
 
 - **Checkbox/Dropdown/Search** - Fixed issue where dropdown/checkbox `change` events were not bubbling. (Dispatched events were swapped to use native `document.creatEvent` in `2.1.5` unfortunately the flag to bubble events was mistakenly off.)
