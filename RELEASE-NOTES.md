@@ -1,3 +1,7 @@
+### Version 2.2.5 - October, 27, 2016
+
+- **Checkbox** - Adds additional variables for styling toggle checkbox on/off state
+
 ### Version 2.2.0 - June 26, 2016
 
 - **Checkbox** - Fixed issue where docs refer to `onEnable` and `onDisable` with checkbox but callback was called `onEnabled` and `onDisabled`, both callbacks will now be valid until 3.0 [#3761](https://github.com/Semantic-Org/Semantic-UI/issues/3761) [#3763](https://github.com/Semantic-Org/Semantic-UI/issues/3763)
