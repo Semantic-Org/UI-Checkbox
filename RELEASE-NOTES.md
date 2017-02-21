@@ -1,3 +1,7 @@
+#### Dropdown
+
+- **Dropdown/Search/Checkbox** - Removes use of deprecated `dispatchEvent` DOM APIs for generating simulated events
+
 ### Version 2.2.5 - October, 27, 2016
 
 - **Checkbox** - Adds additional variables for styling toggle checkbox on/off state
